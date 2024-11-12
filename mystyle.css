@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:darkslategrey;
+}
+
+#container{
+    width: 960px;
+    margin: 0 auto;
+    background-color: darkgreen;
+    color:darkgreen;
+}
+
+header{
+    height: 100px;
+    width: 910px;
+    padding: 25px;
+    background-color:rgb(11, 37, 11) ;
+    margin-bottom: 10px;
+    line-height: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    color:darkgreen;
+}
+
+nav{
+    width: 940px;
+    background-color: rgb(11, 37, 11);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+nav li{
+    display: inline;
+    inline-size: none;
+    padding-right: 40px;
+}
+
+nav a:link{
+    text-decoration: none;
+    color: darkgreen;
+}
+
+nav a:visited {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+aside{
+    width: 200px;
+    margin: 0 10px 10px 0;
+    height: 400px;
+    padding: 10px;
+    float: left;
+    background-color: rgb(11, 37, 11);
+}
+
+section{
+    width: 710px;
+    height: 400px;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    float: right;
+    background-color: rgb(11, 37, 11);
+}
+
+footer{
+    background-color: rgb(11, 37, 11);
+    padding: 10px;
+    clear: both;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+iframe {
+    width: 800px;
+    height: 600px;
+    border: 0px;
+}
